@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: 400;
+  src: url('./assets/fonts/Satoshi-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-weight: bold;
+  src: url('./assets/fonts/Satoshi-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  font-style: light;
+  src: url('./assets/fonts/Satoshi-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Satoshi';
+  font-style: italic;
+  src: url('./assets/fonts/Satoshi-Italic.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #361F0A;
+  /* font-family: 'Satoshi', sans-serif; */
+}
+
+  .btn-gradient{
+    background: linear-gradient(101.07deg, #233fcd 0%, #41381e75 100%);
+    transition: 300ms background-position ease-in-out;
+  }
+
+  .btn-gradient:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(101.07deg, #233fcd 0%, #41381e75 100%);
+  }
+
+  .btn-gradient:active{
+    background: linear-gradient(0deg, rgba(54, 31, 10, 0.2), rgba(54, 31, 10, 0.2)), linear-gradient(101.07deg, #233fcd 0%, #41381e75 100%);
+  }
+
+  .input-shadow{
+    box-shadow: 0px 4px 16px 0px rgba(87, 57, 30, 0.08);
+  }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
