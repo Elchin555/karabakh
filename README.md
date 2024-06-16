@@ -1,4 +1,4 @@
-# Karabakh Project
+# Slight Project
 
 This project is a web application developed using Vue 3 and Vite.
 
