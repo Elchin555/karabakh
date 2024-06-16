@@ -4,7 +4,7 @@ This project is a web application developed using Vue 3 and Vite.
 
 ## Setup and Running
 
-To run the project, follow these steps:
+To run the project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
@@ -27,4 +27,12 @@ To run the project, follow these steps:
     ```
 
 5. Access the project in your browser:
-   (http://localhost:5173/)
+   [http://localhost:5173/](http://localhost:5173/)
+
+## Testing
+
+### Running Unit Tests
+
+To run the unit tests, execute the following command:
+```sh
+npm run test:unit
